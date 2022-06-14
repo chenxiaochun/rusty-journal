@@ -11,7 +11,7 @@ fn main() {
         journal_file,
     } = CommandLineArgs::from_args();
 
-    let journal_file = journal_file.expect("Faild to get journal file path");
+    let journal_file = journal_file.expect("Failed to get journal file path");
 
     match action {
         Add { task } => tasks::add_task(journal_file, Task::new(task)),
