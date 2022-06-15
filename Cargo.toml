@@ -8,6 +8,8 @@ edition = "2021"
 [dependencies]
 structopt="0.3.26"
 serde_json = "1.0.81"
+home = "0.5.3"
+anyhow = "1.0.57"
 
 [dependencies.chrono]
 features = ["serde"]
